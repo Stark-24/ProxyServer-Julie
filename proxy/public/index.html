@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Starkloud</title>
+  </head>
+  <body>
+    <div id="HeroPlayer"></div>
+    <div id="Comments"></div>
+    <div id="SideBar"></div>
+    <div id="FooterPlayer"></div>
+    <script src="lib/react-dom.development.js"></script>
+    <script src="lib/react.development.js"></script>
+    <script src="http://localhost:9001/app.js"></script>
+    <script src="http://localhost:9002/app.js"></script>
+    <script src="http://localhost:9003/bundle.js"></script>
+    <script src="http://localhost:9004/app.js"></script>
+    <script>
+      ReactDOM.render(
+        React.createElement(HeroPlayer),
+        document.getElementById('HeroPlayer')
+      );
+      ReactDOM.render(
+        React.creteElement(Comments),
+        document.getElementById('Comments')
+      );
+      ReactDOM.render(
+        React.createElement(SideBar),
+        document.getElementById('SideBar')
+      );
+      ReactDOM.render(
+        React.createElement(FooterPlayer),
+        document.getElementById('FooterPlayer')
+      );
+    </script>
+  </body>
+</html>

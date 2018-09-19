@@ -1,0 +1,29 @@
+{
+  "name": "proxyserver-julie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stark-24/ProxyServer-Julie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stark-24/ProxyServer-Julie/issues"
+  },
+  "homepage": "https://github.com/Stark-24/ProxyServer-Julie#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "webpack": "^4.19.1"
+  }
+}
