@@ -1,0 +1,14 @@
+div#Comments {
+  margin-left: 60px;
+  float: left;
+  padding:0px;
+}
+
+div#SideBar {
+  margin-right: 60px;
+  float: right;
+}
+
+div#HeroPlayer {
+  padding: 0px;
+}
